@@ -264,6 +264,7 @@ let handle sln pkgDir preview :Error =
 
 [<EntryPoint>]
 let main argv =
+    printfn "Got here."
 
     let error = 
         match (Array.toList argv) with
